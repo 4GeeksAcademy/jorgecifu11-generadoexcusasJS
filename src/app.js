@@ -1,7 +1,6 @@
 import "bootstrap";
 import "./style.css";
 
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
@@ -17,7 +16,7 @@ function ramdonExcuse() {
   const whatIndexRamdon = Math.floor(Math.random() * what.length)
   const whenIndexRamdon = Math.floor(Math.random() * when.length)
 
-  const excuse = '${who[whoIndexRamdon]} ${action[actionIndexRamdon]} ${what[whatIndexRamdon]} ${when[whenIndexRamdon]}'
+  const excuse = `${who[whoIndexRamdon]} ${action[actionIndexRamdon]} ${what[whatIndexRamdon]} ${when[whenIndexRamdon]}`
 
   return excuse
 }
